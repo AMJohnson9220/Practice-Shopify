@@ -1,0 +1,57 @@
+<h2>{{ section.settings.title }}</h2>
+  <div class="guidance-container">
+    {% for block in section.blocks %}
+      <div class="block">
+        <div class="content">
+          <div class="inner"> 
+            <a href="#">{{ block.settings.text }}</a>
+          </div>
+        </div>
+
+          <div class="image">
+            <img src="{{ block.settings.image | img_url: "master" }}"/>
+          </div> 
+      </div>     
+    {% endfor %}
+  </div>
+
+{% schema %}
+{
+  "name": "CBD - Guidance",
+  "tag": "section",
+  "class": "cbd-guidance",
+  "settings": [
+  {
+    "type": "text",
+    "id": "title",
+    "label": "Title",
+    "default": "Need guidance on CBD?"
+  }
+  ],
+  "blocks": [
+  {
+    "type": "text",
+    "name": "CBD-guidance",
+    "settings": [
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Beginners guide to CBD <i class='fas fa-arrow-right'></i>"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "CBD - guidance",
+      "category": "CBD - Guidance"
+    }
+  ]
+}
+{% endschema %}

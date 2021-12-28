@@ -1,0 +1,67 @@
+{% if section.settings.title != blank %}
+  <h2>{{ section.settings.title }}</h2>
+{% endif %}
+
+<div class="stockist-container">
+  {% for block in section.blocks %}
+    <div class="block">
+      <div class="content">
+        <div class="inner">
+          <span>{{ block.settings.text }}</span>
+          <p>{{ block.settings.span }}</p>
+        </div>
+      </div>
+
+      <div class="image">
+        <img src="{{ block.settings.image | img_url: "master" }}"/>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Stockist - Batch",
+  "tag": "section",
+  "class": "stock-batch",
+  "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "CBD stockist and batch reports"
+      }
+    ],
+  "blocks": [
+  {
+    "type": "text",
+    "name": "Stockist-batch",
+    "settings": [
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Stockist finder"
+      },
+      {
+        "type": "text",
+        "id": "span",
+        "label": "Span",
+        "default": "Where to buy CBD oil"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Stockist - batch",
+      "category": "Stockist - Batch"
+    }
+  ]
+}
+{% endschema %}

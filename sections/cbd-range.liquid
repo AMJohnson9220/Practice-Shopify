@@ -1,0 +1,67 @@
+{% if section.settings.title != blank %}
+  <h2>{{ section.settings.title }}</h2>
+{% endif %}
+
+<div class="cbd-range-container">
+  {% for block in section.blocks %}
+    <div class="block">
+      <div class="content">
+        <div class="inner">
+          <span>{{ block.settings.span }}</span>
+          <p>{{ block.settings.paragraph }}</p>
+        </div>
+      </div>
+      
+      <div class="image">
+        <img src="{{ block.settings.image | img_url: "master" }}"/>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "CBD - Range",
+  "tag": "section",
+  "class": "cbd-range",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "The Vitality CBD range"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "CBD-range",
+      "settings": [
+      {
+        "type": "text",
+        "id": "span",
+        "label": "Span",
+        "default": "Well-Being CBD Range"
+      },
+      {
+        "type": "text",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "Start as you mean to go on"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "CBD - range",
+      "category": "CBD - Range"
+    }
+  ]
+}
+{% endschema %}

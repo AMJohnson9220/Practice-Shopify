@@ -1,0 +1,43 @@
+<div class="pilot-container">
+  {% for block in section.blocks %}
+    <div class="block">
+        <div class="inner">
+          <h2>{{ block.settings.title }}</h2>
+          <img src="{{ block.settings.image | img_url: "master" }}"/>
+        </div>
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Desktop-pilot-brands",
+  "tag": "section",
+  "class": "desktop-pilot-brands",
+  "blocks": [
+    {
+      "type": "Desktop-pilot",
+      "name": "Desktop-pilot-section",
+      "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Our customers say:"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Desktop-pilot-brands",
+      "category": "Desktop pilot"
+    }
+  ]
+}
+{% endschema %}

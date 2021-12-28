@@ -1,0 +1,60 @@
+<div class="index-container">
+  <div class="section">
+    <div class="content">
+      <div class="inner">
+        <h2>{{ section.settings.pre-title }}</h2>
+        <span>{{ section.settings.title }}</span>
+        <p>{{ section.settings.text }}</p>
+        <a href="#">{{ section.settings.button }}</a>
+      </div>
+    </div>
+
+    <div>
+      <img class="index-img" src="{{ section.settings.image | img_url: "master" }}">
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Index",
+  "tag": "section",
+  "class": "index",
+  "settings": [
+      {
+        "type": "text",
+        "id": "pre-title",
+        "label": "Pre-Title",
+        "default": "Now Available"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Christmas CBD Bundlese"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Save up to 39% on CBD gifts this year with our festive bundles!"
+      },
+      {
+        "type": "text",
+        "id": "button",
+        "label": "Button",
+        "default": "Explore bundles"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+  ],
+  "presets": [
+    {
+      "name": "Index"
+    }
+  ]
+}
+{% endschema %}

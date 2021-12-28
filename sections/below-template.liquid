@@ -1,0 +1,55 @@
+<div class="template-container">
+  {% for block in section.blocks %}
+    <div class="block">
+      <div class="content">
+        <div class="inner">
+          <div class="image">
+            <img src="{{ block.settings.image | img_url: "master" }}"/>
+          </div>
+          
+            <div class="span">
+              <h2>{{ block.settings.title }}</h2>
+            </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+
+
+
+
+
+{% schema %}
+{
+  "name": "Below - template",
+  "tag": "section",
+  "class": "below-template",
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Below-temp-icons",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Free next day delivery <br> <p>All products ordered before 5pm</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Below - template",
+      "category": "Below - Temp"
+    }
+  ]
+}
+{% endschema %}

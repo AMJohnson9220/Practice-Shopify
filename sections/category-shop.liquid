@@ -1,0 +1,45 @@
+<h2>{{ section.settings.title }}</h2>
+<div class="category-container">
+  {% for block in section.blocks %}
+    <div class="block">
+      <a href="#">{{ block.settings.text }}</a>
+    </div>
+  {% endfor %}
+</div>
+
+
+{% schema %}
+{
+  "name": "Category - shop",
+  "tag": "section",
+  "class": "cat-shop",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Shop by popular categories"
+      }
+      ],
+      "blocks": [
+    {
+      "type": "text",
+      "name": "Category - shop",
+      "settings": [
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "CBD <b>Oils</b> <i class='fas fa-arrow-right'></i>"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Category - shop",
+      "category": "Category - Shop"
+    }
+  ]
+}
+{% endschema %}

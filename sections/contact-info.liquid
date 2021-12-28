@@ -1,0 +1,58 @@
+<div class="contact-container">
+  <div class="content">
+    <h2>{{ section.settings.title }}</h2>
+  </div>
+  
+  {% for block in section.blocks %}
+    <div class="block">
+      <div class="inner">
+        <div class="span">
+          <img src="{{ block.settings.image | img_url: "master" }}"/>
+          <a href="#">{{ block.settings.span }}</a>
+        </div> 
+      </div> 
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Contact Info",
+  "tag": "section",
+  "class": "contact-info",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Have a question? <br> <p>We're happy to help</p>"
+      }
+      ],
+      "name": "contact Info",
+      "blocks": [
+       {
+          "type": "image_picker",
+          "name": "image",
+          "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+        "type": "text",
+        "id": "span",
+        "label": "Span",
+        "default": "Chat to us <u>0121&nbsp;328&nbsp;3208</u>"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact info",
+      "category": "Contact Info"
+    }
+  ]
+}
+{% endschema %}

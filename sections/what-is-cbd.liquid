@@ -1,0 +1,77 @@
+<div class="what-container">
+  {% for block in section.blocks %}
+    <div class="block">
+      <div class="content">
+        <div class="inner">
+          <h2>{{ block.settings.title }}</h2>
+         <span>{{ block.settings.span }}</span>
+          <p>{{ block.settings.paragraph }}</p>
+          <p>{{ block.settings.paragraph2 }}</p>
+          <p>{{ block.settings.paragraph3 }}</p>
+        </div>
+      </div>
+
+      <div class="image">
+        <img src="{{ block.settings.image | img_url: "master" }}"/>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+
+{% schema %}
+{
+  "name": "What is CBD",
+  "tag": "section",
+  "class": "what-is-cbd",
+  "blocks": [
+    {
+      "type": "text",
+      "name": "What is CBD",
+      "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "What is CBD?"
+      },
+      {
+        "type": "text",
+        "id": "span",
+        "label": "Span",
+        "default": "Safe, legal and it won't get you high."
+      },
+      {
+        "type": "text",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "CBD, or cannabidiol, is a natural substance extracted from hemp, and is to be taken as part of a balanced lifestyle. Don’t just take our word for it—there are 2 million CBD users in the UK making the natural choice every day!"
+      },
+      {
+        "type": "text",
+        "id": "paragraph2",
+        "label": "Paragraph2",
+        "default": "It’s important to recognise that CBD is safe, legal and it won’t get you high, even at a high CBD dosage. Since we value our user's safety above else, we do recommend that if you’re taking other medication, you should consult your GP first."
+      },
+      {
+        "type": "text",
+        "id": "paragraph3",
+        "label": "Paragraph3",
+        "default": "Since it’s so versatile, you can find CBD in a variety of different formats, including a traditional CBD oil, a CBD vape oil, CBD cosmetics, or CBD supplements. At Vitality CBD we recognise taking CBD is a different journey for everyone, so we offer such a wide number of options."
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "What is cbd",
+      "category": "What is CBD"
+    }
+  ]
+}
+{% endschema %}
