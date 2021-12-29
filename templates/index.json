@@ -169,6 +169,237 @@
       "settings": {
         "title": "Shop by popular products"
       }
+    },
+    "1640766496dcb49b9b": {
+      "type": "guidance",
+      "blocks": {
+        "a264a5b4-98bf-4e77-8c7c-97692223ac26": {
+          "type": "text",
+          "settings": {
+            "text": "Beginners guide to CBD <i class=\"fas fa-arrow-right\"><\/i>"
+          }
+        },
+        "a4c560ce-df09-481b-b8eb-0b957121cc6c": {
+          "type": "text",
+          "settings": {
+            "text": "Beginners guide to CBD <i class=\"fas fa-arrow-right\"><\/i>"
+          }
+        }
+      },
+      "block_order": [
+        "a264a5b4-98bf-4e77-8c7c-97692223ac26",
+        "a4c560ce-df09-481b-b8eb-0b957121cc6c"
+      ],
+      "settings": {
+        "title": "Need guidance on CBD?"
+      }
+    },
+    "16407665498114fa06": {
+      "type": "cbd-range",
+      "blocks": {
+        "385f49d3-c7b9-494e-b5b7-658c8dcbe7da": {
+          "type": "text",
+          "settings": {
+            "span": "Well-Being CBD Range",
+            "paragraph": "Start as you mean to go on"
+          }
+        },
+        "8ae1b711-4226-46ad-b1dd-f5eabd3b4581": {
+          "type": "text",
+          "settings": {
+            "span": "Well-Being CBD Range",
+            "paragraph": "Start as you mean to go on"
+          }
+        },
+        "46f54ac1-0a22-4423-b045-06f6c474ef9c": {
+          "type": "text",
+          "settings": {
+            "span": "Well-Being CBD Range",
+            "paragraph": "Start as you mean to go on"
+          }
+        },
+        "6370c0b4-06cf-4dcf-9df6-cf982c2a27a1": {
+          "type": "text",
+          "settings": {
+            "span": "Well-Being CBD Range",
+            "paragraph": "Start as you mean to go on"
+          }
+        }
+      },
+      "block_order": [
+        "385f49d3-c7b9-494e-b5b7-658c8dcbe7da",
+        "8ae1b711-4226-46ad-b1dd-f5eabd3b4581",
+        "46f54ac1-0a22-4423-b045-06f6c474ef9c",
+        "6370c0b4-06cf-4dcf-9df6-cf982c2a27a1"
+      ],
+      "settings": {
+        "title": "The Vitality CBD range"
+      }
+    },
+    "16407665826a8d125c": {
+      "type": "stockist-batch",
+      "blocks": {
+        "0e6f2518-8dd4-4acc-be24-6786968ab7c8": {
+          "type": "text",
+          "settings": {
+            "text": "Stockist finder",
+            "span": "Where to buy CBD oil"
+          }
+        },
+        "3faefc9b-6c33-4f9c-99e8-44419d4fbe96": {
+          "type": "text",
+          "settings": {
+            "text": "Stockist finder",
+            "span": "Where to buy CBD oil"
+          }
+        }
+      },
+      "block_order": [
+        "0e6f2518-8dd4-4acc-be24-6786968ab7c8",
+        "3faefc9b-6c33-4f9c-99e8-44419d4fbe96"
+      ],
+      "settings": {
+        "title": "CBD stockist and batch reports"
+      }
+    },
+    "1640766599efc493aa": {
+      "type": "what-is-cbd",
+      "blocks": {
+        "b83c0875-5e71-43dd-ac77-80097bb6fe96": {
+          "type": "text",
+          "settings": {
+            "title": "What is CBD?",
+            "span": "Safe, legal and it won't get you high.",
+            "paragraph": "CBD, or cannabidiol, is a natural substance extracted from hemp, and is to be taken as part of a balanced lifestyle. Don’t just take our word for it—there are 2 million CBD users in the UK making the natural choice every day!",
+            "paragraph2": "It’s important to recognise that CBD is safe, legal and it won’t get you high, even at a high CBD dosage. Since we value our user's safety above else, we do recommend that if you’re taking other medication, you should consult your GP first.",
+            "paragraph3": "Since it’s so versatile, you can find CBD in a variety of different formats, including a traditional CBD oil, a CBD vape oil, CBD cosmetics, or CBD supplements. At Vitality CBD we recognise taking CBD is a different journey for everyone, so we offer such a wide number of options."
+          }
+        },
+        "a42967bd-0e4f-48db-9bfc-b2d8b92fff27": {
+          "type": "text",
+          "settings": {
+            "title": "What is CBD?",
+            "span": "Safe, legal and it won't get you high.",
+            "paragraph": "CBD, or cannabidiol, is a natural substance extracted from hemp, and is to be taken as part of a balanced lifestyle. Don’t just take our word for it—there are 2 million CBD users in the UK making the natural choice every day!",
+            "paragraph2": "It’s important to recognise that CBD is safe, legal and it won’t get you high, even at a high CBD dosage. Since we value our user's safety above else, we do recommend that if you’re taking other medication, you should consult your GP first.",
+            "paragraph3": "Since it’s so versatile, you can find CBD in a variety of different formats, including a traditional CBD oil, a CBD vape oil, CBD cosmetics, or CBD supplements. At Vitality CBD we recognise taking CBD is a different journey for everyone, so we offer such a wide number of options."
+          }
+        },
+        "01868987-a6a7-4115-90ba-719adf0a5e80": {
+          "type": "text",
+          "settings": {
+            "title": "What is CBD?",
+            "span": "Safe, legal and it won't get you high.",
+            "paragraph": "CBD, or cannabidiol, is a natural substance extracted from hemp, and is to be taken as part of a balanced lifestyle. Don’t just take our word for it—there are 2 million CBD users in the UK making the natural choice every day!",
+            "paragraph2": "It’s important to recognise that CBD is safe, legal and it won’t get you high, even at a high CBD dosage. Since we value our user's safety above else, we do recommend that if you’re taking other medication, you should consult your GP first.",
+            "paragraph3": "Since it’s so versatile, you can find CBD in a variety of different formats, including a traditional CBD oil, a CBD vape oil, CBD cosmetics, or CBD supplements. At Vitality CBD we recognise taking CBD is a different journey for everyone, so we offer such a wide number of options."
+          }
+        }
+      },
+      "block_order": [
+        "b83c0875-5e71-43dd-ac77-80097bb6fe96",
+        "a42967bd-0e4f-48db-9bfc-b2d8b92fff27",
+        "01868987-a6a7-4115-90ba-719adf0a5e80"
+      ],
+      "settings": {
+      }
+    },
+    "16407666027f1b09df": {
+      "type": "contact-info",
+      "blocks": {
+        "0cb3e4e1-18dd-4155-8bf6-6d0991c9fb23": {
+          "type": "image_picker",
+          "settings": {
+            "span": "Chat to us <u>0121 328 3208<\/u>"
+          }
+        },
+        "dc878d0d-4458-4378-bd99-bbe843f13371": {
+          "type": "image_picker",
+          "settings": {
+            "span": "Chat to us <u>0121 328 3208<\/u>"
+          }
+        },
+        "0de263a3-e629-4241-8c75-7a07460ba540": {
+          "type": "image_picker",
+          "settings": {
+            "span": "Chat to us <u>0121 328 3208<\/u>"
+          }
+        }
+      },
+      "block_order": [
+        "0cb3e4e1-18dd-4155-8bf6-6d0991c9fb23",
+        "dc878d0d-4458-4378-bd99-bbe843f13371",
+        "0de263a3-e629-4241-8c75-7a07460ba540"
+      ],
+      "settings": {
+        "title": "Have a question? <br> <p>We're happy to help<\/p>"
+      }
+    },
+    "16407666222bbdd164": {
+      "type": "main-footer",
+      "blocks": {
+        "d6328136-5734-40ed-ba40-e5947a262515": {
+          "type": "text",
+          "settings": {
+            "sub-head": "Shop Now <i class=\"fa fa-plus\"><\/i>",
+            "text": "Home",
+            "text2": "Online store",
+            "text3": "Store finder",
+            "text4": "Talk to us"
+          }
+        },
+        "248f8d5b-3946-4698-8b32-983f8b11fbe9": {
+          "type": "text",
+          "settings": {
+            "sub-head": "Shop Now <i class=\"fa fa-plus\"><\/i>",
+            "text": "Home",
+            "text2": "Online store",
+            "text3": "Store finder",
+            "text4": "Talk to us"
+          }
+        },
+        "d160f93a-ea99-496b-9628-d797473d7ce7": {
+          "type": "text",
+          "settings": {
+            "sub-head": "Shop Now <i class=\"fa fa-plus\"><\/i>",
+            "text": "Home",
+            "text2": "Online store",
+            "text3": "Store finder",
+            "text4": "Talk to us"
+          }
+        },
+        "040294cb-a10c-4438-a624-d8eff8bf2682": {
+          "type": "text",
+          "settings": {
+            "sub-head": "Shop Now <i class=\"fa fa-plus\"><\/i>",
+            "text": "Home",
+            "text2": "Online store",
+            "text3": "Store finder",
+            "text4": "Talk to us"
+          }
+        }
+      },
+      "block_order": [
+        "d6328136-5734-40ed-ba40-e5947a262515",
+        "248f8d5b-3946-4698-8b32-983f8b11fbe9",
+        "d160f93a-ea99-496b-9628-d797473d7ce7",
+        "040294cb-a10c-4438-a624-d8eff8bf2682"
+      ],
+      "settings": {
+        "title": "Subscribe to VitalityCBD",
+        "span": "Get the latest news from VitalityCBD",
+        "p": "Contact us",
+        "contact": "Speak to us: 0121&nbsp;328&nbsp;3208",
+        "copyright": "Copyright©",
+        "year": "2021",
+        "ltd": "Vitality CBD Ltd",
+        "all-rights": "All Rights Reserved.",
+        "privacy": "Privacy policy",
+        "use-of": "Use of cookies",
+        "terms": "Terms of use",
+        "image": "shopify:\/\/shop_images\/dmca-badge-w100-5x1-11.png",
+        "company-details": "Vitality CBD Ltd&nbsp | &nbspCompany no: 11612964 &nbsp | Wainwright Street, Aston, Birmingham, B6 5TJ, Uk"
+      }
     }
   },
   "order": [
@@ -176,6 +407,12 @@
     "1640765043dc075db1",
     "1640765052fbf5a59b",
     "1640765067f9d288a7",
-    "1640765119f271f39e"
+    "1640765119f271f39e",
+    "1640766496dcb49b9b",
+    "16407665498114fa06",
+    "16407665826a8d125c",
+    "1640766599efc493aa",
+    "16407666027f1b09df",
+    "16407666222bbdd164"
   ]
 }
