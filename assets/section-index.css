@@ -15,24 +15,24 @@ img {
 
 /* Index */
 
-.index {
+.banner {
   border-bottom: 1px solid #000000;
 }
 
-.index .index-container {
+.banner .banner-container {
   position: relative;
 }
 
-.index .content {
+.banner .content {
   position: absolute;
   margin: 0 20px;
 }
 
-.index .inner {
+.banner .inner {
   padding: 30px 8px;
 }
 
-.index h2 {
+.banner h2 {
   font-size: 15px;
   font-weight: bold;
   line-height: 15px;
@@ -42,7 +42,7 @@ img {
   margin-bottom: 5px;
 }
 
-.index span {
+.banner span {
   font-size: 28px;
   line-height: 32px;
   letter-spacing: 0;
@@ -50,7 +50,7 @@ img {
   margin-bottom: 5px;
 }
 
-.index p {
+.banner p {
   font-size: 15px;
   font-weight: 100;
   line-height: 22px;
@@ -59,7 +59,7 @@ img {
   margin-bottom: 25px;
 }
 
-.index a {
+.banner a {
   font-size: 14px;
   text-decoration: none;
   background-color: #cb875d;
@@ -69,23 +69,23 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
-  .index .content {
+  .banner .content {
     margin-left: 50px;
     margin-right: 800px;
   }
 
-  .index h2 {
+  .banner h2 {
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 10px;
   }
 
-  .index span {
+  .banner span {
     font-size: 42px;
     font-weight: bold;
   }
 
-  .index p {
+  .banner p {
     font-size: 20px;
   }
 }
