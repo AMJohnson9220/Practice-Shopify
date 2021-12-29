@@ -1,0 +1,57 @@
+<div class="banner-container">
+  <div class="section">
+    <div class="content">
+      <div class="inner">
+        <h2>{{ section.settings.pre-title }}</h2>
+        <span>{{ section.settings.title }}</span>
+        <p>{{ section.settings.text }}</p>
+        <a href="#">{{ section.settings.button }}</a>
+      </div>
+    </div>
+
+    <picture>
+      <source srcset="//cdn.shopify.com/s/files/1/0085/2846/1905/files/Mobile-Bath_8766e9f3-25e4-4f39-b570-b643410b8045_600x.jpg?v=1639761189" media="(max-width: 767px)">
+      <source srcset="//cdn.shopify.com/s/files/1/0085/2846/1905/files/Desktop-Bath_3f6cb59a-3ca3-4de8-b5be-5498ee0c2f06.jpg?v=1639761166" media="(min-width: 768px)">
+      <img src="//cdn.shopify.com/s/files/1/0085/2846/1905/files/Desktop-Bath_3f6cb59a-3ca3-4de8-b5be-5498ee0c2f06.jpg?v=1639761166" alt="">
+    </picture>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Banner",
+  "tag": "section",
+  "class": "banner",
+  "settings": [
+      {
+        "type": "text",
+        "id": "pre-title",
+        "label": "Pre-Title",
+        "default": "Now Available"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Christmas CBD Bundles"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Save up to 39% on CBD gifts this year with our festive bundles!"
+      },
+      {
+        "type": "text",
+        "id": "button",
+        "label": "Button",
+        "default": "Explore bundles"
+      }
+  ],
+  "presets": [
+    {
+      "name": "Banner"
+    }
+  ]
+}
+{% endschema %}
