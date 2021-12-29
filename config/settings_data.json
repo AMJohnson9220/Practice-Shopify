@@ -12,19 +12,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "",
-              "color_scheme": "background-1",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
@@ -45,7 +32,6 @@
         "blocks": {
           "footer-0": {
             "type": "link_list",
-            "disabled": true,
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
@@ -53,7 +39,6 @@
           },
           "footer-1": {
             "type": "text",
-            "disabled": true,
             "settings": {
               "heading": "Heading",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
@@ -66,9 +51,9 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": false,
+          "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": true,
+          "show_social": false,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true

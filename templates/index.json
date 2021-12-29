@@ -1,444 +1,181 @@
 {
   "sections": {
-    "1640715650abc159ee": {
-      "type": "index",
+    "16407647937fa2d580": {
+      "type": "banner",
       "settings": {
         "pre-title": "Now Available",
         "title": "Christmas CBD Bundles",
         "text": "Save up to 39% on CBD gifts this year with our festive bundles!",
-        "button": "Explore bundles",
-        "image": "shopify:\/\/shop_images\/CBD-Mobile-img.jpg"
+        "button": "Explore bundles"
       }
     },
-    "16407156832360ca53": {
+    "1640765043dc075db1": {
       "type": "desktop-pilot-brands",
       "blocks": {
-        "453f0dad-be5f-4ce6-aa68-1c2ddbc9cb76": {
+        "aabf08ae-0812-4e86-a425-66bf92e6aebb": {
           "type": "Desktop-pilot",
           "settings": {
-            "title": "Our customers say:",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-trustpilot.png"
+            "title": "Our customers say:"
           }
         },
-        "3a96ea1e-7781-449b-978a-4b7a63998233": {
+        "6f7a7902-b2b1-4a6b-9bff-8a6c92fbc33b": {
           "type": "Desktop-pilot",
           "settings": {
-            "title": "Available in:",
-            "image": "shopify:\/\/shop_images\/boots-lloyds-pharmacy-tesco-asda-vitality-cbd.png"
+            "title": "Our customers say:"
           }
         }
       },
       "block_order": [
-        "453f0dad-be5f-4ce6-aa68-1c2ddbc9cb76",
-        "3a96ea1e-7781-449b-978a-4b7a63998233"
+        "aabf08ae-0812-4e86-a425-66bf92e6aebb",
+        "6f7a7902-b2b1-4a6b-9bff-8a6c92fbc33b"
       ],
       "settings": {
       }
     },
-    "1640715654d4096091": {
+    "1640765052fbf5a59b": {
       "type": "below-template",
       "blocks": {
-        "5ecf90e8-8801-4d58-b304-533bdbc8df3e": {
+        "3f4d4800-d343-4736-b916-5580f0efb3e3": {
           "type": "image",
           "settings": {
-            "title": "Free next day delivery <br> <p>All products ordered before 5pm<\/p>",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-free-delivery.png"
+            "title": "Free next day delivery <br> <p>All products ordered before 5pm<\/p>"
           }
         },
-        "1ea03b55-5a31-40cf-8303-da6ae3586a13": {
+        "5e816f6c-be74-4ee4-82de-15ffb0c44ecc": {
           "type": "image",
           "settings": {
-            "title": "0% THC lab tested <br> <p>Independently tested<\/p>",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-batch-results.png"
+            "title": "Free next day delivery <br> <p>All products ordered before 5pm<\/p>"
           }
         },
-        "9674cb36-4e01-4cc4-8e6a-139c2551de46": {
+        "9caac986-7c9a-4b87-876f-a4742917ccd3": {
           "type": "image",
           "settings": {
-            "title": "All natural <br> <p>Our CBD is organically grown<\/p>",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-all-natural.png"
+            "title": "Free next day delivery <br> <p>All products ordered before 5pm<\/p>"
           }
         }
       },
       "block_order": [
-        "5ecf90e8-8801-4d58-b304-533bdbc8df3e",
-        "1ea03b55-5a31-40cf-8303-da6ae3586a13",
-        "9674cb36-4e01-4cc4-8e6a-139c2551de46"
+        "3f4d4800-d343-4736-b916-5580f0efb3e3",
+        "5e816f6c-be74-4ee4-82de-15ffb0c44ecc",
+        "9caac986-7c9a-4b87-876f-a4742917ccd3"
       ],
       "settings": {
       }
     },
-    "1640715716b2be26e9": {
+    "1640765067f9d288a7": {
       "type": "category-shop",
       "blocks": {
-        "36bb6ddd-5afb-48b7-9aff-87edfb211be8": {
+        "1573219f-af5e-4068-8d53-fbd0350155a0": {
           "type": "text",
           "settings": {
             "text": "CBD <b>Oils<\/b> <i class=\"fas fa-arrow-right\"><\/i>"
           }
         },
-        "e0eeefd4-4f53-4b56-862c-52e80de62894": {
+        "ce52dfe2-9455-4fba-bf04-bd96cfe6fb3f": {
           "type": "text",
           "settings": {
-            "text": "CBD <b>Creams<\/b> <i class=\"fas fa-arrow-right\"><\/i>"
+            "text": "CBD <b>Oils<\/b> <i class=\"fas fa-arrow-right\"><\/i>"
           }
         },
-        "147b30e6-c93e-4f6e-a261-9b5ee84b1c16": {
+        "7246ca60-56a9-4c8e-9082-42b795fd04a2": {
           "type": "text",
           "settings": {
-            "text": "CBD <b>E-liquids<\/b> <i class=\"fas fa-arrow-right\"><\/i>"
+            "text": "CBD <b>Oils<\/b> <i class=\"fas fa-arrow-right\"><\/i>"
           }
         },
-        "9adef1c3-bdda-4afc-9370-4bc44d7c0c0e": {
+        "ff08e540-0f24-442d-a3a0-80486e862ba7": {
           "type": "text",
           "settings": {
-            "text": "CBD <b>Gummies<\/b> <i class=\"fas fa-arrow-right\"><\/i>"
+            "text": "CBD <b>Oils<\/b> <i class=\"fas fa-arrow-right\"><\/i>"
           }
         }
       },
       "block_order": [
-        "36bb6ddd-5afb-48b7-9aff-87edfb211be8",
-        "e0eeefd4-4f53-4b56-862c-52e80de62894",
-        "147b30e6-c93e-4f6e-a261-9b5ee84b1c16",
-        "9adef1c3-bdda-4afc-9370-4bc44d7c0c0e"
+        "1573219f-af5e-4068-8d53-fbd0350155a0",
+        "ce52dfe2-9455-4fba-bf04-bd96cfe6fb3f",
+        "7246ca60-56a9-4c8e-9082-42b795fd04a2",
+        "ff08e540-0f24-442d-a3a0-80486e862ba7"
       ],
       "settings": {
         "title": "Shop by popular categories"
       }
     },
-    "16407162290b44de0f": {
+    "1640765119f271f39e": {
       "type": "popular-products",
       "blocks": {
-        "07108c68-6c49-4b32-a085-3314c1e424d4": {
+        "edd7e407-1c06-415e-b03c-1d7d942069d3": {
           "type": "text",
           "settings": {
             "h3": "CBD Oral Drops",
             "span": "Perfect for beginners",
             "paragraph": "1200MG | £19.99",
-            "button": "Buy Now",
-            "image": "shopify:\/\/shop_images\/V3_Home_Drops_1200_Berry_a_600x_7a80fc73-1d42-4b61-9652-58e9bf9d1c7a.png"
+            "button": "Buy Now"
           }
         },
-        "29ca77be-22a7-4a4a-ae15-aa19e08dcdf9": {
+        "b47cc929-9d06-44aa-b0bc-f515499bf7b0": {
           "type": "text",
           "settings": {
-            "h3": "CBD Muscle & Joint Gel",
-            "span": "New product",
-            "paragraph": "500MG | £21.99",
-            "button": "Buy Now",
-            "image": "shopify:\/\/shop_images\/cbd-joint-muscle-gel-box-jar_1_600x_422956d8-96e2-4769-ab03-0d32e518670c.png"
+            "h3": "CBD Oral Drops",
+            "span": "Perfect for beginners",
+            "paragraph": "1200MG | £19.99",
+            "button": "Buy Now"
           }
         },
-        "4d552bff-c1b1-4ebd-a434-d3e6f0268861": {
+        "0289299a-b90e-4d83-84e6-99439c35550b": {
           "type": "text",
           "settings": {
-            "h3": "CBD Oral Drops \/ Spray",
-            "span": "Best Value",
-            "paragraph": "4800MG | £49.99",
-            "button": "Buy Now",
-            "image": "shopify:\/\/shop_images\/maximum-strength-cbd-spray_600x_eec7bd85-ee1a-4b7d-8aa6-fc54be623971.jpg"
+            "h3": "CBD Oral Drops",
+            "span": "Perfect for beginners",
+            "paragraph": "1200MG | £19.99",
+            "button": "Buy Now"
           }
         },
-        "15a15048-3b97-4759-82f7-8fc2cc1fde5c": {
+        "6ddad6be-7b19-4a8e-9487-286b5d319dc8": {
           "type": "text",
           "settings": {
-            "h3": "CBD Muscle Balm",
-            "span": "Best selling balm",
-            "paragraph": "300MG | £29.99",
-            "button": "Buy Now",
-            "image": "shopify:\/\/shop_images\/best-selling-cbd-blam_600x_18f9df6b-f2c3-40d9-9251-3f13ca7db2df.jpg"
+            "h3": "CBD Oral Drops",
+            "span": "Perfect for beginners",
+            "paragraph": "1200MG | £19.99",
+            "button": "Buy Now"
           }
         },
-        "31266f90-2717-4450-b8ae-ddf24928e292": {
+        "949552c8-2bdf-47df-8689-5a831bf47781": {
           "type": "text",
           "settings": {
-            "h3": "Relax CBD Drops",
-            "span": "Popular for sleep",
-            "paragraph": "2000MG | £34.99",
-            "button": "Buy Now",
-            "image": "shopify:\/\/shop_images\/relax-cbd-perfect-for-sleep_600x_92950cd6-5a69-4069-a45a-593ee24a9b0d.jpg"
+            "h3": "CBD Oral Drops",
+            "span": "Perfect for beginners",
+            "paragraph": "1200MG | £19.99",
+            "button": "Buy Now"
           }
         },
-        "ddac52b8-4896-4251-a8e6-5bb09b3e8d4b": {
+        "038d24ad-6ff5-430d-84a2-5f64a6ce5200": {
           "type": "text",
           "settings": {
-            "h3": "CBD Body Cream",
-            "span": "Best selling Cream",
-            "paragraph": "300MG | £29.99",
-            "button": "Buy Now",
-            "image": "shopify:\/\/shop_images\/best-selling-cbd-body-cream_600x_03884e6c-033b-4542-be55-018339916774.jpg"
+            "h3": "CBD Oral Drops",
+            "span": "Perfect for beginners",
+            "paragraph": "1200MG | £19.99",
+            "button": "Buy Now"
           }
         }
       },
       "block_order": [
-        "07108c68-6c49-4b32-a085-3314c1e424d4",
-        "29ca77be-22a7-4a4a-ae15-aa19e08dcdf9",
-        "4d552bff-c1b1-4ebd-a434-d3e6f0268861",
-        "15a15048-3b97-4759-82f7-8fc2cc1fde5c",
-        "31266f90-2717-4450-b8ae-ddf24928e292",
-        "ddac52b8-4896-4251-a8e6-5bb09b3e8d4b"
+        "edd7e407-1c06-415e-b03c-1d7d942069d3",
+        "b47cc929-9d06-44aa-b0bc-f515499bf7b0",
+        "0289299a-b90e-4d83-84e6-99439c35550b",
+        "6ddad6be-7b19-4a8e-9487-286b5d319dc8",
+        "949552c8-2bdf-47df-8689-5a831bf47781",
+        "038d24ad-6ff5-430d-84a2-5f64a6ce5200"
       ],
       "settings": {
         "title": "Shop by popular products"
       }
-    },
-    "164071623306d52347": {
-      "type": "guidance",
-      "blocks": {
-        "81e6d416-c0e1-405e-86a7-19a6b34a8153": {
-          "type": "text",
-          "settings": {
-            "text": "Beginners guide to CBD <i class=\"fas fa-arrow-right\"><\/i>",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-beginners-guide_800x_c79da459-a419-4f02-a9fb-87b295ad9bb2.jpg"
-          }
-        },
-        "7d1ec988-b5c9-4b7d-ac7d-2d8920a77861": {
-          "type": "text",
-          "settings": {
-            "text": "Find the right CBD dosage <i class=\"fas fa-arrow-right\"><\/i>",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-dosage_800x_0970294c-c3b5-40fe-9336-23c939bedd27.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "81e6d416-c0e1-405e-86a7-19a6b34a8153",
-        "7d1ec988-b5c9-4b7d-ac7d-2d8920a77861"
-      ],
-      "settings": {
-        "title": "Need guidance on CBD?"
-      }
-    },
-    "16407166653a400c47": {
-      "type": "cbd-range",
-      "blocks": {
-        "732cfcfd-86ee-49ef-8969-16b72c7ba248": {
-          "type": "text",
-          "settings": {
-            "span": "Well-Being CBD Range",
-            "paragraph": "Start as you mean to go on",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-lifestyle-range_800x_4be5a22f-e885-41fe-ba55-8725a4c3b234.jpg"
-          }
-        },
-        "971cfd8c-f785-43d1-9788-5afa86a53ce1": {
-          "type": "text",
-          "settings": {
-            "span": "Active Sport CBD Range",
-            "paragraph": "New year new you, time to get active",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-active-range_800x_9ae23da3-47a9-4259-b754-5c2bf727db2a.jpg"
-          }
-        },
-        "986a2ef8-53f5-4a71-a950-627618ff6ebf": {
-          "type": "text",
-          "settings": {
-            "span": "Infused CBD Range",
-            "paragraph": "Pamper yourself with CBD Cosmetics.",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-Infused-range_800x_6c475809-95d7-4e00-bd9c-7b57d4bcfa5f.jpg"
-          }
-        },
-        "4268dca8-14c2-46c5-9977-14054357a083": {
-          "type": "text",
-          "settings": {
-            "span": "CBD Support Range",
-            "paragraph": "CBD combined with natural ingredients",
-            "image": "shopify:\/\/shop_images\/vitalitycbd_home_support_800x_84eff10f-b538-4aa3-b730-bbd2b5ab556f.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "732cfcfd-86ee-49ef-8969-16b72c7ba248",
-        "971cfd8c-f785-43d1-9788-5afa86a53ce1",
-        "986a2ef8-53f5-4a71-a950-627618ff6ebf",
-        "4268dca8-14c2-46c5-9977-14054357a083"
-      ],
-      "settings": {
-        "title": "The Vitality CBD range"
-      }
-    },
-    "1640716953ace1036f": {
-      "type": "stockist-batch",
-      "blocks": {
-        "044e435e-062f-4963-89b8-679db62e5c8e": {
-          "type": "text",
-          "settings": {
-            "text": "Stockist finder",
-            "span": "Where to buy CBD oil",
-            "image": "shopify:\/\/shop_images\/vitality-cbd-stockists_800x_02455fb8-cd19-433d-8407-e8c5b7742a4a.jpg"
-          }
-        },
-        "7239b692-0eba-4445-8d28-1bf3c7c25c31": {
-          "type": "text",
-          "settings": {
-            "text": "CBD Lab Reports",
-            "span": "Product test results",
-            "image": "shopify:\/\/shop_images\/vitality-cbd_batch_800x_6cdbbf4e-7961-428a-899a-063061025dbf.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "044e435e-062f-4963-89b8-679db62e5c8e",
-        "7239b692-0eba-4445-8d28-1bf3c7c25c31"
-      ],
-      "settings": {
-        "title": "CBD stockist and batch reports"
-      }
-    },
-    "164071712660b7cc62": {
-      "type": "what-is-cbd",
-      "blocks": {
-        "6a5c8cd6-78cd-4d0f-a073-57832a1b2e28": {
-          "type": "text",
-          "settings": {
-            "title": "What is CBD?",
-            "span": "Safe, legal and it won't get you high.",
-            "paragraph": "CBD, or cannabidiol, is a natural substance extracted from hemp, and is to be taken as part of a balanced lifestyle. Don’t just take our word for it—there are 2 million CBD users in the UK making the natural choice every day!",
-            "paragraph2": "It’s important to recognise that CBD is safe, legal and it won’t get you high, even at a high CBD dosage. Since we value our user's safety above else, we do recommend that if you’re taking other medication, you should consult your GP first.",
-            "paragraph3": "Since it’s so versatile, you can find CBD in a variety of different formats, including a traditional CBD oil, a CBD vape oil, CBD cosmetics, or CBD supplements. At Vitality CBD we recognise taking CBD is a different journey for everyone, so we offer such a wide number of options.",
-            "image": "shopify:\/\/shop_images\/what-is-cbd_800x_0ed7af2a-6073-4e2a-a960-bf35804b13b7.jpg"
-          }
-        },
-        "419aa70b-2452-4af8-b2a2-e863ac23085b": {
-          "type": "text",
-          "settings": {
-            "title": "CBD Benefits",
-            "span": "Take charge in leading a balanced life.",
-            "paragraph": "There’s no average CBD oil user, but there is a CBD mindset. It’s about taking charge and leading your best life. Whether you exercise regularly, are focused on going green, or just want to lead a balanced lifestyle, that's the Vitality CBD state of mind.",
-            "paragraph2": "CBD is one of over 100 different cannabinoids. These cannabinoids are directly similar to chemicals the human body produces organically, in the endocannabinoid system.",
-            "paragraph3": "That’s why we believe CBD is the natural choice. This endocannabinoid system is found throughout most of your major organs, your nervous system and your immune system. That's why the best CBD oils can be integrated seamlessly into your body.",
-            "image": "shopify:\/\/shop_images\/why-choose-cbd_800x_cc74a97b-b95f-4fda-990d-d8dd7c993595.jpg"
-          }
-        },
-        "2a82a8ad-495c-4b68-9595-7a847b2c6783": {
-          "type": "text",
-          "settings": {
-            "title": "Why choose Vitality CBD?",
-            "span": "Clear dosing, concise info & batch testing.",
-            "paragraph": "As the UK market leaders in CBD we’re proud to provide the highest quality natural CBD products supported by a completely premium user experience. That means clear dosing, concise information, and a giant CBD knowledge hub to guide you on your natural journey.",
-            "paragraph2": "A recent independent report by CBD Intel confirmed that we’re the most visible UK cannabidiol brand, available in over 4,000 stores nationally. The reason why? We’re always up front and transparent with our users.",
-            "paragraph3": "If you want to know what’s in each of our products, you can easily check out our batch test reports right here on the website. Not sure where to start? Our CBD experts are on-hand to answer all your questions about CBD effects. Just click the chat icon in the bottom right of each page Monday-Friday 9-5pm.",
-            "image": "shopify:\/\/shop_images\/why-choose-vitality-cbd_800x_d6c34216-cd79-480f-b5eb-23cc3bd85d1d.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "6a5c8cd6-78cd-4d0f-a073-57832a1b2e28",
-        "419aa70b-2452-4af8-b2a2-e863ac23085b",
-        "2a82a8ad-495c-4b68-9595-7a847b2c6783"
-      ],
-      "settings": {
-      }
-    },
-    "16407171298df72401": {
-      "type": "contact-info",
-      "blocks": {
-        "574d0094-062d-4fbf-af2c-a36ade77a9ff": {
-          "type": "image_picker",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vitality-cbd-phone.png",
-            "span": "Chat to us <u>0121 328 3208<\/u>"
-          }
-        },
-        "ad28ecb1-e3b8-41e0-bea5-7857a281c0a8": {
-          "type": "image_picker",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vitality-cbd-stockists.png",
-            "span": "<u>Visit your local store<\/u>"
-          }
-        },
-        "28e9374a-07b5-4e01-b0ff-6cb02a21a26c": {
-          "type": "image_picker",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/vitality-cbd-envelope.png",
-            "span": "<u>Email us<\/u>"
-          }
-        }
-      },
-      "block_order": [
-        "574d0094-062d-4fbf-af2c-a36ade77a9ff",
-        "ad28ecb1-e3b8-41e0-bea5-7857a281c0a8",
-        "28e9374a-07b5-4e01-b0ff-6cb02a21a26c"
-      ],
-      "settings": {
-        "title": "Have a question? <br> <p>We're happy to help<\/p>"
-      }
-    },
-    "16407183507e5bc89d": {
-      "type": "main-footer",
-      "blocks": {
-        "57b38c4c-389f-4548-ba18-dc070a3c0bae": {
-          "type": "text",
-          "settings": {
-            "sub-head": "Shop Now <i class=\"fa fa-plus\"><\/i>",
-            "text": "Home",
-            "text2": "Online store",
-            "text3": "Store finder",
-            "text4": "Talk to us"
-          }
-        },
-        "babc08d4-e1ca-4efe-bb0d-393cb7561f56": {
-          "type": "text",
-          "settings": {
-            "sub-head": "Education <i class=\"fa fa-plus\"><\/i>",
-            "text": "How To CBD Guides",
-            "text2": "The 4-step guide",
-            "text3": "CBD dosage",
-            "text4": "Batch testing"
-          }
-        },
-        "757b7a9f-fb95-4554-8033-8f25203bea3d": {
-          "type": "text",
-          "settings": {
-            "sub-head": "Explore <i class=\"fa fa-plus\"><\/i>",
-            "text": "CBD Oil Guides",
-            "text2": "CBD Eliquid Guides",
-            "text3": "CBD Cosmetic Guides",
-            "text4": "CBD News"
-          }
-        },
-        "83d775de-96fd-47f5-bf73-3328d5a3d711": {
-          "type": "text",
-          "settings": {
-            "sub-head": "Support <i class=\"fa fa-plus\"><\/i>",
-            "text": "Shipping & delivery",
-            "text2": "Return policy",
-            "text3": "Contact us",
-            "text4": ""
-          }
-        }
-      },
-      "block_order": [
-        "57b38c4c-389f-4548-ba18-dc070a3c0bae",
-        "babc08d4-e1ca-4efe-bb0d-393cb7561f56",
-        "757b7a9f-fb95-4554-8033-8f25203bea3d",
-        "83d775de-96fd-47f5-bf73-3328d5a3d711"
-      ],
-      "settings": {
-        "title": "Subscribe to VitalityCBD",
-        "span": "Get the latest news from VitalityCBD",
-        "p": "Contact us",
-        "contact": "Speak to us: 0121&nbsp;328&nbsp;3208",
-        "copyright": "Copyright©",
-        "year": "2021",
-        "ltd": "Vitality CBD Ltd",
-        "all-rights": "All Rights Reserved.",
-        "privacy": "Privacy policy",
-        "use-of": "Use of cookies",
-        "terms": "Terms of use",
-        "image": "shopify:\/\/shop_images\/dmca-badge-w100-5x1-11.png",
-        "company-details": "Vitality CBD Ltd&nbsp | &nbspCompany no: 11612964 &nbsp | Wainwright Street, Aston, Birmingham, B6 5TJ,  Uk"
-      }
     }
   },
   "order": [
-    "1640715650abc159ee",
-    "16407156832360ca53",
-    "1640715654d4096091",
-    "1640715716b2be26e9",
-    "16407162290b44de0f",
-    "164071623306d52347",
-    "16407166653a400c47",
-    "1640716953ace1036f",
-    "164071712660b7cc62",
-    "16407171298df72401",
-    "16407183507e5bc89d"
+    "16407647937fa2d580",
+    "1640765043dc075db1",
+    "1640765052fbf5a59b",
+    "1640765067f9d288a7",
+    "1640765119f271f39e"
   ]
 }
