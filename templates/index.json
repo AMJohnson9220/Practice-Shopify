@@ -15,13 +15,15 @@
         "aabf08ae-0812-4e86-a425-66bf92e6aebb": {
           "type": "Desktop-pilot",
           "settings": {
-            "title": "Our customers say:"
+            "title": "Our customers say:",
+            "image": "shopify:\/\/shop_images\/vitality-cbd-trustpilot.png"
           }
         },
         "6f7a7902-b2b1-4a6b-9bff-8a6c92fbc33b": {
           "type": "Desktop-pilot",
           "settings": {
-            "title": "Our customers say:"
+            "title": "Available in:",
+            "image": "shopify:\/\/shop_images\/boots-lloyds-pharmacy-tesco-asda-vitality-cbd.png"
           }
         }
       },
