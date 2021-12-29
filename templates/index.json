@@ -40,19 +40,22 @@
         "3f4d4800-d343-4736-b916-5580f0efb3e3": {
           "type": "image",
           "settings": {
-            "title": "Free next day delivery <br> <p>All products ordered before 5pm<\/p>"
+            "title": "Free next day delivery <br> <p>All products ordered before 5pm<\/p>",
+            "image": "shopify:\/\/shop_images\/vitality-cbd-free-delivery.png"
           }
         },
         "5e816f6c-be74-4ee4-82de-15ffb0c44ecc": {
           "type": "image",
           "settings": {
-            "title": "Free next day delivery <br> <p>All products ordered before 5pm<\/p>"
+            "title": "0% THC lab tested <br> <p>Independently tested<\/p>",
+            "image": "shopify:\/\/shop_images\/vitality-cbd-batch-results.png"
           }
         },
         "9caac986-7c9a-4b87-876f-a4742917ccd3": {
           "type": "image",
           "settings": {
-            "title": "Free next day delivery <br> <p>All products ordered before 5pm<\/p>"
+            "title": "All natural <br> <p>Our CBD is organically grown<\/p>",
+            "image": "shopify:\/\/shop_images\/vitality-cbd-all-natural.png"
           }
         }
       },
