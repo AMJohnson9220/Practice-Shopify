@@ -71,26 +71,35 @@ img {
 @media screen and (min-width: 1200px) {
   .banner .content {
     margin-left: 50px;
-    margin-right: 800px;
+    margin-right: 50px;
+    padding-top: 30px;
   }
 
   .banner h2 {
     font-size: 18px;
     line-height: 22px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .banner span {
     font-size: 42px;
+    line-height: 38px;
+    letter-spacing: 0;
     font-weight: bold;
+    margin-right: 1000px;
   }
 
   .banner p {
+    margin-top: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-right: 700px;
+  }
+
+  .banner a {
     font-size: 20px;
   }
 }
-
-/* Index - Min-width:  */
 
 /* Pilot - Section */
 .desktop-pilot-brands {
@@ -153,6 +162,59 @@ img {
   vertical-align: middle;
 }
 
+@media screen and (min-width: 1200px) {
+  .desktop-pilot-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop-pilot-brands .pilot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+  }
+
+  .desktop-pilot-brands .block {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+  }
+
+  .desktop-pilot-brands .block:first-child {
+    padding-top: 20px;
+    border-bottom: none;
+  }
+
+  .desktop-pilot-brands .block:first-child img {
+    width: 75%;
+  }
+
+  .desktop-pilot-brands .block:last-child {
+    margin-top: -10px;
+  }
+
+  .desktop-pilot-brands .block .inner:first-child h2 {
+    display: block;
+  }
+
+  .desktop-pilot-brands .block .inner:last-child {
+    display: flex;
+  }
+
+  .desktop-pilot-brands .block:last-child img {
+    display: block;
+    width: 90%;
+  }
+
+  .desktop-pilot-brands .block:last-child {
+    margin-left: 10px;
+    display: flex;
+  }
+}
+
 /* Below-template */
 .below-template {
   background-color: #f7f7f7;
@@ -199,6 +261,28 @@ img {
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .below-template {
+    display: flex;
+  }
+
+  .below-template .template-container {
+    display: flex;
+  }
+
+  .below-template .block {
+    display: flex;
+  }
+
+  .below-template .inner img {
+    display: block;
+  }
+
+  .below-template .inner span {
+    display: block;
+  }
 }
 
 /* Category - Shop */
@@ -256,6 +340,29 @@ img {
 
 .cat-shop .block b {
   padding-left: 3px;
+}
+
+@media screen and (min-width: 1200px) {
+  .cat-shop {
+    margin: 0 50px;
+  }
+
+  .cat-shop .category-container {
+    display: flex;
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cat-shop .block {
+    display: flex;
+    margin: auto;
+  }
+
+  .cat-shop a {
+    display: block;
+    margin: auto;
+  }
 }
 
 /* Popular - Products */
@@ -414,15 +521,22 @@ img {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1200px) {
+  .pop-products {
+    display: flex;
+  }
+}
+
 /* CBD - Guidance */
 .cbd-guidance {
-  position: relative;
+  /* position: relative; */
   margin: 0 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #d8d8d8;
 }
 
 .cbd-guidance .block {
+  position: relative;
   padding-top: 20px;
 }
 
@@ -432,6 +546,10 @@ img {
   line-height: 15px;
   display: block;
   margin-top: 20px;
+}
+
+.cbd-guidance .image {
+  position: relative;
 }
 
 .cbd-guidance .block a {
@@ -448,6 +566,7 @@ img {
   border-radius: 30px;
   padding: 8px 15px;
   margin-top: 2%;
+  z-index: 10;
 }
 
 .cbd-guidance img {
@@ -460,9 +579,16 @@ img {
 /* CBD - Range */
 .cbd-range {
   position: relative;
-  padding: 20px 0;
   border-bottom: 1px solid #d8d8d8;
   margin: 0 20px;
+}
+
+.cbd-range .cbd-range-container {
+  padding: 15px 0;
+}
+
+.cbd-range .block {
+  padding-bottom: 15px;
 }
 
 .cbd-range .block .content {
@@ -474,7 +600,7 @@ img {
   font-size: 15px;
   font-weight: 600;
   display: block;
-  padding-bottom: 20px;
+  padding-top: 12px;
 }
 
 .cbd-range .block span {
@@ -538,6 +664,10 @@ img {
   color: #282828;
   display: block;
   margin-bottom: 15px;
+}
+
+.stock-batch .block:first-child {
+  padding-bottom: 20px;
 }
 
 .stock-batch .content {
@@ -832,6 +962,7 @@ input {
 
 .main-footer .last-content p {
   font-size: 15px;
+  letter-spacing: 0;
   line-height: 22px;
   color: #fff;
 }

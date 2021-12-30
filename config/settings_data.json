@@ -20,7 +20,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/vitality-cbd.png",
-          "logo_width": 150,
+          "logo_width": 180,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
@@ -53,7 +53,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": false,
+          "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
           "enable_country_selector": true,
